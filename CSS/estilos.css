@@ -333,8 +333,14 @@ form fieldset div label{
  
 
 /*--------Estilos para el FOOTER---------*/
-footer{
-    margin-top: 1%;
+
+.footer-iconos{
+    width: 50%;
+    display: inline-block;
 }
 
-
+.footer-direccion{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
