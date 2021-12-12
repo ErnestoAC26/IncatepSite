@@ -170,7 +170,7 @@ header nav ul li a{
 }
 
 /*-----TESTIMONIOS----*/
-.testimonios{
+#testimonios{
 
     display: flex;
     flex-direction: row;
@@ -200,7 +200,7 @@ header nav ul li a{
 }
 
 /*----CONVENIOS----*/
-.convenios{
+#convenios{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -339,8 +339,14 @@ form fieldset div label{
     display: inline-block;
 }
 
+.footer-imagen{
+    height: 5%;
+    width: 5%;
+}
+
 .footer-direccion{
     width: 49%;
     display: inline-block;
     text-align: right;
+    font-weight: bold;
 }
