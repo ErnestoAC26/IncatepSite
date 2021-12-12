@@ -7,7 +7,11 @@
     , initial-scale=1.0">
     <link rel="shortcut icon" href="../images/LogoIncatep.jpg">
     <title>INCATEP</title>
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--MI CSS-->
     <link rel="stylesheet" href="../CSS/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -35,13 +39,13 @@
         </nav>
     </header>
     
-    <section>
+    <section class="Formulario">
+
         <form action="/" method="post">
             <fieldset>
-                <legend>Contactanos</legend>
-            
-                <div class="formImputs">
 
+                <div class="formImputs">
+                    
                     <label for="nombre">Nombre:</label>
                     <input id="nombre" type="text" placeholder="Ingrese su nombre"><br>
                     <label for="telefono">Teléfono:</label>
@@ -50,7 +54,7 @@
                     <input id="correo" type="email" required placeholder="Ingrese su correo"><br>
                     <label for="mensaje">Mensaje:</label><br>
                     
-                   <textarea name="mensaje" id="msg" cols="1" rows="5" placeholder="Deje un mensaje personalizado y enseguida nos pondremos en contacto con ud.">
+                   <textarea name="mensaje" class="msg" cols="1" rows="3" placeholder="Deje un mensaje personalizado y enseguida nos pondremos en contacto con ud.">
                    </textarea>
 
                     <div class="formBtn">
@@ -61,11 +65,8 @@
                 </div>
 
                 <div class="formMapa">
-
-                    <article>
-                        <h2>Ubícanos</h2>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.4701367718785!2d-77.09650698518776!3d-12.011120791491097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAwJzQwLjAiUyA3N8KwMDUnMzkuNiJX!5e0!3m2!1ses!2spe!4v1636304611814!5m2!1ses!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </article>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.4701367718785!2d-77.09650698518776!3d-12.011120791491097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAwJzQwLjAiUyA3N8KwMDUnMzkuNiJX!5e0!3m2!1ses!2spe!4v1636304611814!5m2!1ses!2spe" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>    
                 
             </fieldset>
