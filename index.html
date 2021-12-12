@@ -16,6 +16,7 @@
 <body>
 
     <header>
+        
             <div class="headerEncabezado">
                 
                 <img class="imgHeader"src="./images/LogoIncatep.jpg" alt="Logo Incatep">
@@ -44,39 +45,39 @@
         <img src="./images/Principal.jpg" alt="Promoción">
     </section>
 
-    
-    <section id="programas">
-        <h2>Programas de Estudio</h2>    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <h2>Programas de Estudio</h2>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3>ADMINISTRACIÓN</h3>  
+            <img class="programa-img" src="./images/LogoAdmin.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h3>INFORMÁTICA</h3>  
+            <img class="programa-img" src="./images/LogoInformatica.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h3>DERECHO</h3>  
+            <img class="programa-img" src="./images/LogoDerecho.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h3>SALUD</h3>  
+            <img class="programa-img" src="./images/LogoSalud.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
 
-        <div class="programa-presentacion">
-            <a href="./pages/progAdmin.html">
-                <img class="programa-img" src="./images/LogoAdmin.jpg" alt="Logo_Administracion">
-                Administración
-            </a>
-        </div>    
-        
-        <div class="programa-presentacion">
-            <a href="./pages/progInfo.html">
-                <img class="programa-img" src="./images/LogoInformatica2.jpg" alt="Logo_Informática">
-                Informática
-            </a>
-        </div>     
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-        <div class="programa-presentacion">
-            <a href="./pages/progDerecho.html">
-                <img class="programa-img" src="./images/LogoDerecho.jpg" alt="Logo_Derecho">
-                Derecho
-            </a>
-        </div>   
 
-        <div class="programa-presentacion">
-            <a href="./pages/progSalud.html">
-                <img class="programa-img" src="./images/LogoSalud2.jpg" alt="Logo_Salud">
-                Salud
-            </a>
-        </div>   
 
-    </section>
 
     <aside id="quienessomos">
         <h2>POR QUÉ INCATEP</h2>

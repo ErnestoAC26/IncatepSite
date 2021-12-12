@@ -14,7 +14,7 @@ body{
 
 header{
     background-color: rgba(0, 0, 0, 0.514);
-    position: sticky;
+    position: relative;
     width: 100%;
     top: 5px;
 }
@@ -64,38 +64,39 @@ header nav ul li a{
 
 /*INICIO*/
 .imgPrincipal {
-    text-align: center;
+    width: auto;
+    height: 80vh;
+    margin-bottom: 20px;
    }
 
+.imgPrincipal img{
+    height: 100%;
+    width: 100%;
+  
+} 
+
 /* PROGRAMAS DE ESTUDIO*/
-#programas{
-    background-color:slategrey;
-    height: 400px;
+.carousel-inner{
     text-align: center;
-}
-
-.programa-presentacion{
-    background-color: white;
-    height: 80%;
-    width:  20%;
-    color: black;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 50%;
-    display: inline-block;
-    overflow: hidden;
-    margin: 1%;
-}
-
-.programa-img{
-    height: 90%;
-    width: 100%;   
-}
-
-#programas h2{
-    text-align: left;  
-}
-
+    padding: 20px; 
+ }
+ 
+ .programa-img{
+     width: 50%;
+     border-radius: 10px;
+     
+ }
+ 
+ .carousel-item h3{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: rgba(0, 0, 0, 0.507);
+     width: 50%;
+     color: white;
+ 
+ }
 
 
 /*---PORQUE INCATEP-------*/
@@ -370,3 +371,8 @@ form fieldset div label{
     text-align: right;
     font-weight: bold;
 }
+
+
+
+
+
