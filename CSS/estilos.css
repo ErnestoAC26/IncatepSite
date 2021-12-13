@@ -289,7 +289,7 @@ form{
     
 }
 
-form fieldset{
+.formContenido{
     background-color: aqua;
     height: 70vh;
     width: 80%;
@@ -298,7 +298,6 @@ form fieldset{
     justify-content: space-evenly;
     align-items: center;
 }    
-
 
 
 .formImputs{
@@ -376,3 +375,6 @@ form fieldset div label{
 
 
 
+#FrmRespuesta{
+    background-color: blueviolet;
+}
