@@ -101,6 +101,7 @@ header nav ul li a{
 
 /*---PORQUE INCATEP-------*/
 #quienessomos{
+    margin-bottom: 20px;
     background-color:yellowgreen;
     height: 300px;
     text-align: center;
@@ -126,7 +127,12 @@ header nav ul li a{
 }
 
 /*---MISION Y VISION INCATEP----*/
+.MisionVision{
+    margin-bottom: 20px;
+}
+
 .MisionVision-Contenido{
+   
     background-color:turquoise;
     height: 300px;
     display: flex;
@@ -172,7 +178,7 @@ header nav ul li a{
 
 /*-----TESTIMONIOS----*/
 #testimonios{
-
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -202,6 +208,7 @@ header nav ul li a{
 
 /*----CONVENIOS----*/
 #convenios{
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -226,6 +233,7 @@ header nav ul li a{
 /*---NOTICIAS----*/
 
 .Noticias{
+    margin-bottom: 20px;
     width: 100%;
     height: 100vh;
 
@@ -278,15 +286,13 @@ header nav ul li a{
 
 /*--------FORMULARIO DE CONTACTO-------*/
 
-
 legend{
     font-style: italic;   
 }
 
 form{
     height: 100%;
-   
-    
+      
 }
 
 .formContenido{
@@ -307,11 +313,8 @@ form{
 }
 
 .formMapa{
-    
     width: 40%;
     height: 80%;
-   
-    
 }
 
 .formMapa iframe{
@@ -352,6 +355,28 @@ form fieldset div label{
 } 
  
 
+.FrmRespuesta{
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.FrmRespuesta-Mensaje img{
+    height: 30%;
+    width: 30%;
+}
+
+.FrmRespuesta-btn{
+    text-align: center;
+    background-color: rgb(169, 169, 169);
+}
+
+.FrmRespuesta-btn input{
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+}
+
 /*--------Estilos para el FOOTER---------*/
 
 .footer-iconos{
@@ -372,9 +397,39 @@ form fieldset div label{
 }
 
 
+/*----PAGE PROGRAMA ADMINISTRACION---*/
+.Programas{
+    height: 100%;
+    width: 100%;
+}
 
+.Programas h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.CajaProgramas{
+   display: flex;
+   flex-wrap: wrap;
+   height: 100%; 
+   text-align: center;
+   
+}
 
-#FrmRespuesta{
-    background-color: blueviolet;
+.Programa-Cursos{
+    margin: 1% 1% 3% 1%;
+    
+    height: 70vh;
+}
+
+.Programa-Cursos img{
+    height: 100%;
+    width: 100%;
+}
+
+.Programa-Cursos p{
+    text-decoration: underline;
+    font-weight: bold;
 }
