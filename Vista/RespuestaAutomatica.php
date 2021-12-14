@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <form class="FrmRespuesta" action="../index.html" method="post" target="_blank">
+    <form class="FrmRespuesta" action="../index.html" method="post">
         <fieldset class="FrmRespuesta-fieldset">
 
             <div class="FrmRespuesta-Saludo">
