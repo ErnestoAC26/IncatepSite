@@ -128,7 +128,7 @@ header nav ul li a{
 /*---PORQUE INCATEP-------*/
 #quienessomos{
     margin-bottom: 20px;
-    background-color:yellowgreen;
+    background-color:rgba(25, 25, 112, 0.315);
     height: 300px;
     text-align: center;
     margin-bottom: 2%;
@@ -159,7 +159,7 @@ header nav ul li a{
 
 .MisionVision-Contenido{
    
-    background-color:turquoise;
+    background-color:rgba(0, 0, 128, 0.281);
     height: 300px;
     display: flex;
     align-items: center;
@@ -234,7 +234,7 @@ header nav ul li a{
 
 /*----CONVENIOS----*/
 #convenios{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -263,7 +263,7 @@ header nav ul li a{
     width: 100%;
     height: 100vh;
 
-    background-color: aqua;
+    background-color: rgba(0, 0, 128, 0.575);
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -277,7 +277,14 @@ header nav ul li a{
 
 .Noticias-Titulo{
     grid-area: titulo;
-    font-size: 3.125rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.Noticias-Titulo h2{
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .Noticias-Links{
@@ -285,11 +292,17 @@ header nav ul li a{
 }
 
 .Noticias-Contenido1{
-    grid-area: noticia1
+    grid-area: noticia1;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 .Noticias-Contenido2{
-    grid-area: noticia2
+    grid-area: noticia2;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 .Noticias-Referente{
@@ -302,6 +315,7 @@ header nav ul li a{
 .logoLink{
     width: 25%;
     height: 25%;
+    margin: 5px;
 }
 
 .ImagenRef{
@@ -322,7 +336,7 @@ form{
 }
 
 .formContenido{
-    background-color: aqua;
+    background-color: rgba(218, 165, 32, 0.596);
     height: 80vh;
     width: 80%;
     margin: 0 auto;
